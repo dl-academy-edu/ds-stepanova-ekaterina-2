@@ -1,18 +1,17 @@
 
 * {
   box-sizing: border-box;
-
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open sans', sans-serif;
   font-size: 16px;
   color: #1E0606;
 }
 
 img {
   max-width: 100%;
-  display: block
+  display: block;
 }
 
 
@@ -34,9 +33,9 @@ img {
 
 .union {
   width: 100px;
-  height: 52px;
-  
+  height: 52px; 
 }
+
 .union:hover {
   width: 100px;
   height: 52px;
@@ -58,12 +57,10 @@ img {
 
 .header-item > a {
   margin-right: 20px;
-  color:black;
-  Font-size: 14px;
-  Line-height: 19px;
-  Align: Left;
-  Vertical-align: Center;
-  Paragraph-spacing: 15px;
+  color: black;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: center;
   color: black; 
   text-decoration: none;
   text-transform: uppercase;
@@ -71,12 +68,10 @@ img {
 
 .header-item > a:hover{
   margin-right: 20px;
-  color:black;
-  Font-size: 14px;
-  Line-height: 19px;
-  Align: Left;
-  Vertical-align: Center;
-  Paragraph-spacing: 15px;
+  color: black;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: center;
   color: black; 
   opacity: 50%;
   text-decoration: none;
@@ -85,13 +80,11 @@ img {
 
 .header-item > a:active {
   margin-right: 20px;
-  color:black;
+  color: black;
   opacity: 20%;
-  Font-size: 14px;
-  Line-height: 19px;
-  Align: Left;
-  Vertical-align: Center;
-  Paragraph-spacing: 15px;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: center;
   color: black; 
   text-decoration: none;
   text-transform: uppercase;
@@ -126,7 +119,7 @@ img {
 
 
 .header .button {
-  font-family: Open Sans;
+  font-family: open sans;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -138,17 +131,16 @@ img {
   width: 10%;
   height: 23px;
   text-align: right;
- 
 }
 
 .header .button:hover {
   color: #1E0606;
-  Opacity: 50%;
+  opacity: 50%;
 } 
 
 .header .button:active {
   color: #1E0606;
-  Opacity: 20%;
+  opacity: 20%;
 } 
 
 .button-secondary {
@@ -159,23 +151,25 @@ img {
 }
 
 .button-secondary {
-  font-family: Open Sans;
+  font-family: open sans;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 22px;
   position: absolute;
   left: 300px;
-  Width: 161px;
-  Height: 40px;
+  width: 161px;
+  height: 40px;
   text-align: center;
   background: black;
-  color:blanchedalmond;
+  color: blanchedalmond;
   border: none;
 }
+
 .button-secondary:hover {
   background: #C29974;
 }
+
 .button-secondary:active {
   background: #CFAF91;
 }
@@ -186,7 +180,6 @@ img {
   list-style-type: none;
   padding: 0;
   margin: 0;
-
 }
 
 .container {
@@ -243,12 +236,12 @@ img {
 /* SERVICE */
 
 .service-title_one {
-  Font-family: Montserrat;
-  font-Weight: 700;
-  font-Style: normal;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
   margin-top: 90px;
   margin-left: 0px;
-  Font-size: 38px;
+  font-size: 38px;
   line-height: 46px;
   width: 454px;
   height: 47px;
@@ -262,7 +255,6 @@ img {
 
 li {
   list-style: none;
-  
 }
 
 .servise-style li {
@@ -272,10 +264,10 @@ li {
 .servise-style .button-one {
   position: absolute;
   color: #FFFFFF; 
-  font-Size: 26px;
-  Line-height: 32px;
+  font-size: 26px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -286,12 +278,12 @@ li {
 
 .servise-style .button-one:hover {
   position: absolute;
-  text-decoration:inherit;
+  text-decoration: inherit;
   color: #FFFFFF; 
   font-Size: 26px;
-  Line-height: 32px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -301,12 +293,12 @@ li {
 
 .servise-style .button-one:active {
   position: absolute;
-  text-decoration:inherit;
+  text-decoration: inherit;
   color: #FFFFFF; 
   font-Size: 26px;
-  Line-height: 32px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -318,10 +310,10 @@ li {
 .servise-style .button-two {
   position: absolute;
   color: #FFFFFF; 
-  font-Size: 26px;
-  Line-height: 32px;
+  font-size: 26px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -332,12 +324,12 @@ li {
 
 .servise-style .button-two:hover {
   position: absolute;
-  text-decoration:inherit;
+  text-decoration: inherit;
   color: #FFFFFF; 
-  font-Size: 26px;
-  Line-height: 32px;
+  font-size: 26px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -347,12 +339,12 @@ li {
 
 .servise-style .button-two:active {
   position: absolute;
-  text-decoration:inherit;
+  text-decoration: inherit;
   color: #FFFFFF; 
-  font-Size: 26px;
-  Line-height: 32px;
+  font-size: 26px;
+  line-height: 32px;
   text-align: center;
-  font-family: Montserrat;
+  font-family: montserrat;
   font-weight: 700;
   font-style: normal;
   width: 280px;
@@ -365,7 +357,6 @@ li {
 .service-navigation {
   display: flex;
   position: relative;
-  
 }
 
 .service-navigation button {
@@ -386,10 +377,10 @@ li {
   height: 44px;
   margin-left: 20px;
   margin-top: 30px;
-  font-family: Open Sans;
-  font-Weight :400;
-  font-Style: normal;
-  font-Size: 16px;
+  font-family: open sans;
+  font-weight : 400;
+  font-style: normal;
+  font-size: 16px;
   line-height: 22px;
 }
 
@@ -423,11 +414,11 @@ li {
   color: #aaa;
   width: 62px;
   height: 22px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -445,14 +436,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
-
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -469,13 +459,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 15px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -492,13 +482,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 15px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .ref-tree:hover {
@@ -514,13 +504,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 15px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -537,13 +527,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 15px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -560,13 +550,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 15px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .ref-six:hover {
@@ -582,17 +572,18 @@ li {
   display: flex;
   position: absolute;
 }
+
 .footer-header_two {
   margin-top: 115px;
   margin-left: 510px;
   color: #aaa;
   width: 167px;
   height: 22px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list {
@@ -602,8 +593,8 @@ li {
   background: #666666;
   width: 380px;
   height: 1px;
-
 }
+
 li {
   margin-top: 15px;
 }
@@ -613,13 +604,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_one:hover {
@@ -636,13 +627,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_two:hover {
@@ -659,13 +650,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_tree:hover {
@@ -682,13 +673,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_four:hover {
@@ -705,13 +696,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_five:hover {
@@ -728,13 +719,13 @@ li {
   height: 22px;
   margin-left: -40px;
   margin-top: 52px;
-  color:white;
+  color: white;
   text-decoration: none;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .information-list_six:hover {
@@ -751,11 +742,11 @@ li {
   color: #aaa;
   width: 80px;
   height: 22px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .connect {
@@ -788,15 +779,15 @@ li {
   width: 81px;
   height: 40px;
   background: black;
-  color:blanchedalmond;
+  color: blanchedalmond;
   text-transform: uppercase;
   border: none;
   text-align: center;
-  font-family: Open Sans;
-  font-Weight: 700;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .submit:hover {
@@ -865,16 +856,18 @@ li {
   margin-top: 23px;
   margin-left: -40px;
   color: white;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
   cursor: pointer;
 }
+
 .lower:hover {
   color: #836E5B;
 }
+
 .lower:active {
   color: #C29974;
 }
@@ -888,9 +881,11 @@ li {
   width: 17px;
   height: 16px; 
 }
+
 .star-one:hover {
   content: url('../images/Star\ \(1\).svg'); 
 }
+
 .star-one:active {
   content: url('../images/Star\ \(2\).svg');
 }
@@ -900,12 +895,13 @@ li {
   margin-left: 175px;
   margin-top: -17px; 
   width: 17px;
-  height: 16px;
-  
+  height: 16px; 
 }
+
 .star-two:hover {
   content: url('../images/Star\ \(1\).svg'); 
 }
+
 .star-two:active {
   content: url('../images/Star\ \(2\).svg');
 }
@@ -964,11 +960,11 @@ li {
   width: 291px;
   height: 22px;
   color: #fff;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .web {
@@ -977,11 +973,11 @@ li {
   width: 298px;
   height: 22px;
   color: #a2a2a2;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
   cursor: pointer;
 }
 

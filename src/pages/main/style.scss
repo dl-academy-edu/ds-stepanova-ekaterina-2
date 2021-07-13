@@ -2,7 +2,7 @@
 
 .container-wrapper {
   display: flex;
-  align: center;
+  text-align: center;
 }
 
 .container-wrapper {
@@ -36,8 +36,8 @@
 
 
 .container-wrapper .banner-title {
-  font-family: Montserrat;
-  font-Weight: 700;
+  font-family: montserrat;
+  font-weight: 700;
   font-style: normal;
   font-size: 40px;
   line-height: 44px;
@@ -61,7 +61,6 @@
   margin-left: 133px;
   margin-right: 161px;
   margin-bottom: 20px;
-  width: 50%;
 }
 
 
@@ -104,7 +103,6 @@
 .about-container_services  {
   display: flex;
   position: relative;
-  
 }
 
 
@@ -123,11 +121,11 @@
   margin-bottom: 17px;
   margin-left: 121px;
   text-transform: uppercase;
-  font: Montserrat;
-  font-Weight: 700;
-  font-Style: normal;
-  font-Size: 38px;
-  Line-height: 46px;
+  font: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
 } 
 
 
@@ -142,11 +140,11 @@
   padding-top: 11px;
   padding-right: 180px;
   padding-left: 60px;
-  font-family: Crimson Text;
-  font-Weight: 700;
-  font-Style: italic;
-  font-Size: 26px;
-  Line-height: 32px;
+  font-family: crimson text;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .about-container_services .Guarantee {
@@ -154,11 +152,11 @@
   height: 33px;
   margin-top: 11px;
   margin-left: -240px;
-  font-family: Crimson Text;
-  font-Weight: 400;
-  font-Style: italic;
-  font-Size: 26px;
-  Line-height: 32px;
+  font-family: crimson text;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .about-container_services .Credit {
@@ -167,11 +165,11 @@
   margin-top: 22px;
   margin-left: -240px;
   margin-bottom: 30px;
-  font-family: Crimson Text;
-  font-Weight: 400;
-  font-Style: italic;
-  font-Size: 26px;
-  Line-height: 32px;
+  font-family: crimson text;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 32px;
 }
 
 .about-container_services .text2 {
@@ -180,13 +178,12 @@
   height: 66px;
   margin-top: 267px;
   margin-left: -267px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
-  Align: Left;
-  Vertical align: Top;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  vertical-align: top;
 }
 
 
@@ -195,18 +192,17 @@
   height: 88px;
   margin-top: 348px;
   margin-left: -479px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
-  line-height: 100%;
-  Align: Left;
-  Vertical align: Top;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  vertical-align: top;
 }
 
 .button-ternary {
-  font-family: Open Sans;
+  font-family: open sans;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -214,19 +210,21 @@
   position: absolute;
   text-decoration: none;
   left: 813px;
-  Width: 149px;
-  Height: 40px;
+  width: 149px;
+  height: 40px;
   padding: 9px 22px;
   margin-top: 462px;
   margin-left: -100px;
   text-align: center;
   background: black;
-  color:blanchedalmond;
+  color: blanchedalmond;
   border: none;
 }
+
 .button-ternary:hover {
   background: #C29974;
 }
+
 .button-ternary:active {
   background: #CFAF91;
 }
@@ -236,9 +234,8 @@
 .brand-list {
   display: flex;
   position: relative;
-  
-
 }
+
 .brand-container .brand-list {
   justify-content: space-between;
   margin-top: 0px;
@@ -254,17 +251,14 @@
   position: relative;
   justify-content: space-evenly;
   margin-top: 116px;
-  margin-bottom: 155px;
-  
+  margin-bottom: 155px; 
 }
+
 .map-wrapper1 {
-  
   background: #E1F0F7;
   width: 543px;
   height: 228px;
   margin-left: 20px;
-  
-
 }
 
 .design-title {
@@ -274,11 +268,11 @@
   height: 47px;
   margin-top: -24px;
   margin-left: 30px;
-  font-family: Montserrat;
-  font-Weight: 700;
-  font-Style: normal;
-  font-Size: 38px;
-  Line-height: 46px;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
 }
 
 .about {
@@ -287,11 +281,11 @@
   height: 33px;
   top: 31px;
   margin-left: 30px;
-  font-family: Crimson Text;
-  font-Weight: 400;
-  font-Style: italic;
-  font-Size: 26px;
-  Line-height: 33px;
+  font-family: crimson text;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 33px;
 }
 
 .text4 {
@@ -299,11 +293,11 @@
   margin-left: 30px;
   width: 483px;
   height: 67px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -312,7 +306,7 @@
   width: 123px;
   height: 40px;
   background: black;
-  color:blanchedalmond;
+  color: blanchedalmond;
   text-transform: uppercase;
   border: none;
   text-align: center;
@@ -320,20 +314,19 @@
   padding: 9px;
   top: 30px;
   margin-left: 30px;
-  font-family: Open Sans;
-  font-Weight: 700;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
+
 .map-wrapper1 .button-fourthly:hover {
   background: #C29974;
- 
 }
 
 .map-wrapper1 .button-fourthly:active {
   background: #CFAF91;
- 
 }
 
 .map-wrapper2 {
@@ -342,6 +335,7 @@
   height: 209px;
   margin-right: 147px;
 }
+
 .contact-title {
   position: absolute;
   text-transform: uppercase;
@@ -349,23 +343,23 @@
   height: 47px;
   margin-top: -24px;
   margin-left: 30px;
-  font-family: Montserrat;
-  font-Weight: 700;
-  font-Style: normal;
-  font-Size: 38px;
-  Line-height: 46px;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 46px;
 }
+
 .text5 {
   margin-top: 41px;
   margin-left: 30px;
   width: 483px;
   height: 66px;
-  font-family: Open Sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
-
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .position {
@@ -441,11 +435,11 @@
   height: 20px;
   margin-top: 5px;
   margin-bottom: 3px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 14px;
-  Line-height: 19px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
   left: 40px;
   padding: 0;
 }
@@ -456,16 +450,16 @@
   height: 50px;
   margin-top: 28px;
   left: 40px;
-  border: 1px, #ccc;   
+  border: 1px #ccc;   
 }
 
 .name:hover {
-  border: 2px, rgba(0, 0, 0, 0.3); 
+  border: 2px rgba(0, 0, 0, 0.3); 
   outline-color: rgba(0, 0, 0, 0.3); 
 }
 
 .name:active {
-  border: 1px, rgba(0, 0, 0, 0.2);   
+  border: 1px rgba(0, 0, 0, 0.2);   
 }
 
 .field-phone {
@@ -475,28 +469,29 @@
   left: 40px;
   margin-top: 105px;
   margin-bottom: 3px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 14px;
-  Line-height: 19px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
+
 .phone {
   position: absolute;
   margin-top: 127px;
   width: 290px;
   height: 50px;
   left: 40px;
-  border: 1px, #ccc;
+  border: 1px #ccc;
 }
 
 .phone:hover {
-  border: 2px, rgba(0, 0, 0, 0.3);
+  border: 2px rgba(0, 0, 0, 0.3);
   outline-color: rgba(0, 0, 0, 0.3);
 }
 
 .phone:active {
-  border: 2px, rgba(0, 0, 0, 0.2);
+  border: 2px rgba(0, 0, 0, 0.2);
 }
 
 .field-email {
@@ -506,29 +501,29 @@
   margin-top: 105px;
   margin-bottom: 3px;
   margin-left: 298px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 14px;
-  Line-height: 19px;
-
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
+
 .email-one {
   position: absolute;
   width: 290px;
   height: 50px;
   margin-top: 127px;
   margin-left: 298px; 
-  border: 1px, #ccc;
+  border: 1px #ccc;
 }
 
 .email-one:hover {
-  border: 2px, rgba(0, 0, 0, 0.3);
+  border: 2px rgba(0, 0, 0, 0.3);
   outline-color: rgba(0, 0, 0, 0.3);
 }
 
 .email-one:active {
-  border: 2px, rgba(0, 0, 0, 0.2);
+  border: 2px rgba(0, 0, 0, 0.2);
 }
 
 .field-message {
@@ -538,29 +533,29 @@
   margin-top: 200px;
   margin-bottom: 3px;
   left: 40px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 14px;
-  Line-height: 19px;
-
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
+
 .message {
   position: absolute;
   width: 600px;
   height: 150px;
   margin-top: 225px;
   left: 40px;
-  border: 1px, #ccc;
+  border: 1px #ccc;
 }
 
 .message:hover {
-  border: 2px, rgba(0, 0, 0, 0.3);
+  border: 2px rgba(0, 0, 0, 0.3);
   outline-color: rgba(0, 0, 0, 0.3);
 }
 
 .message:active {
-  border: 2px, rgba(0, 0, 0, 0.2);
+  border: 2px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -571,38 +566,37 @@
   margin-top: 60px;
   margin-right: 110px;
   padding-bottom: 384px;
-
 }
 
 .support {
   width: 380px;
   height: 44px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .send {
   width: 380px;
   height: 66px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 16px;
-  Line-height: 22px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
   margin-top: 20px;
 }
 
 .expert {
   width: 380px;
   height: 66px;
-  font-family: Montserrat;
-  font-Weight: 600;
-  font-Style: normal;
-  font-Size: 26px;
-  Line-height: 34px;
+  font-family: montserrat;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 34px;
   margin-top: 20px;
   color: #C29974;
   text-transform: uppercase;
@@ -614,16 +608,14 @@
   margin-left: -12px;
   width: 19px;
   height: 19px;
-  cursor: default;
-  
+  cursor: default; 
 }
 
 
 .button-checkbox::before {
-  content: url('');
   display: inline-block;
   position: absolute;
-  font: 20px/30px Arial;
+  font: 20px arial;
   margin-right: 15px;
   left: 0;
   right: 0;
@@ -635,7 +627,6 @@
   border: 2px solid #C29974;
   border-image: initial;
   vertical-align: middle;
-
 }
 
 
@@ -653,7 +644,6 @@
   border-color: 2px solid #C29974;
   background-color: #E5EAF8;
   content: url('../images/Vector\ 1\ \(Stroke\).svg');
-  
 } 
 
 .clicking {
@@ -662,16 +652,16 @@
   width: 508px;
   height: 20px;
   margin-left: 16px;
-  font-family: Open sans;
-  font-Weight: 400;
-  font-Style: normal;
-  font-Size: 14px;
-  Line-height: 19px;
+  font-family: open sans;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
   
 .submit-one {
   position: absolute;
-  font-family: Open Sans;
+  font-family: open sans;
   font-weight: 700;
   font-style: normal;
   font-size: 16px;
@@ -680,16 +670,18 @@
   text-transform: uppercase;
   left: 40px;
   top: 450px;
-  Width: 106px;
-  Height: 40px;
+  width: 106px;
+  height: 40px;
   text-align: center;
   background: black;
-  color:blanchedalmond;
+  color: blanchedalmond;
   border: none;
 }
+
 .submit-one:hover {
   background: #C29974;
 }
+
 .submit-one:active {
   background: #CFAF91;
 }

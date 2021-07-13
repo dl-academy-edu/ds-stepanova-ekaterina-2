@@ -1,0 +1,504 @@
+
+
+
+
+.clouds {
+    top: 63px;
+    left: 5px;
+}
+
+.cloud-one {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    animation: cloud-one 17s infinite;
+}
+
+@keyframes cloud-one {
+    from {
+        left: 5px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.cloud-two {
+    top: 54px;
+    left: 325px;
+    position: absolute;
+    animation: cloud-two 25s infinite;
+}
+
+@keyframes cloud-two {
+    from {
+        left: 325px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.cloud-three {
+    top: 18px;
+    left: 582px;
+    position: absolute;
+    animation: cloud-three 20s infinite;
+}
+
+@keyframes cloud-three {
+    from {
+        left: 582px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.cloud-four {
+    top: 101px;
+    left: 695px;
+    position: absolute;
+    animation: cloud-four 14s infinite;
+}
+
+@keyframes cloud-four {
+    from {
+        left: 695px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.cloud-five {
+    top: 53px;
+    left: 988px;
+    position: absolute;
+    animation: cloud-five 12s infinite;
+}
+
+@keyframes cloud-five {
+    from {
+        left: 988px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.cloud-six {
+    top: 50px;
+    left: 1227px;
+    position: absolute;
+    animation: cloud-six 13s infinite;
+}
+
+@keyframes cloud-six {
+    from {
+        left: 1227px;
+    }
+    to {
+        left: 2000px;
+    }
+}
+
+.list {
+    list-style-type: none;
+}
+
+.road {
+    margin-top: 10px;  
+}
+
+.car-three {
+    position: absolute;
+    top: 497px;
+    left: 791px;
+    animation: three 20s infinite;
+    
+}
+
+@keyframes three {
+    from {
+        top: 482px;
+        left: 10px;   
+    }
+    to {
+        top: 482px;
+        left: 2000px; 
+    }
+}
+
+.car-one {
+    position: absolute;
+    top: 482px;
+    left: 111px;
+    animation: one 7s infinite;
+}
+
+@keyframes one {
+    from {
+        top: 482px;
+        left: 0px;   
+    }
+    to {
+        top: 482px;
+        left: 2000px; 
+    }
+}
+
+// .wheel {
+//     top: 538px;
+//     left: 146px;
+//     position: absolute;
+//     animation: wheel 20s infinite;
+//     transition: 10s;
+    
+   
+// }
+
+// @keyframes wheel {
+//     0%, from {
+//         transform: rotate(360deg);
+//         transform-origin: 0 0;
+//         top: 538px;
+//         left: 146px; 
+//     }
+//     100%, to {
+//         transform: rotate(360deg);
+//         transform-origin: 0 0;
+//         top: 538px;
+//         left: 2000px; 
+//     }
+// }
+
+.car-two {
+    position: absolute;
+    top: 480px;
+    left: 494px;
+    animation: two 10s infinite;
+    
+}
+
+@keyframes two {
+    from {
+        top: 482px;
+        left: 5px;   
+    }
+    to {
+        top: 482px;
+        left: 2000px; 
+    }
+    
+}
+
+
+
+.car-four {
+    position: absolute;
+    top: 463px;
+    left: 1346px;
+    animation: four 15s infinite;
+ 
+}
+
+@keyframes four {
+    from {
+        top: 482px;
+        left: 15px;   
+    }
+    to {
+        top: 482px;
+        left: 2000px; 
+    }
+}
+
+.Lanterns {
+    position: absolute;
+    top: 234px;
+    left: 603px;
+}
+
+.Lanterns-one {
+    position: absolute;
+    top: 234px;
+    left: 1479px;
+}
+
+.road-one {
+    margin-top: 45px;
+}
+
+.one {
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 173px;
+}
+
+.two {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 145px;
+}
+
+.three {
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 234px;
+}
+
+.four {
+    position: absolute;
+    margin-top: 71px;
+    margin-left: 262px;
+}
+
+.five {
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 779px;
+}
+
+.six {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 649px;
+}
+
+.seven {
+    position: absolute;
+    margin-top: 43px;
+    margin-left: 905px;
+}
+
+.eight {
+    position: absolute;
+    margin-top: 57px;
+    margin-left: 1171px;
+}
+
+.nine {
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 1347px;
+}
+
+.ten {
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 1402px;
+}
+
+.eleven {
+    position: absolute;
+    margin-top: 49px;
+    margin-left: 1522px;
+}
+
+.lantern {
+    position: absolute;
+    top: 233px;
+    margin-left: 1168px;
+    z-index: 1;
+}
+
+.woman {
+    position: absolute;
+    top: 536px;
+    margin-left: 293px;
+    z-index: 1;
+}
+
+.message-one {
+    position: absolute;
+    top: 430px;
+    margin-left: 200px;
+    animation: mess 3s;
+    animation-delay: mess 3s;
+}
+
+
+
+
+.arm {
+    position: absolute;
+    top: 649px;
+    margin-left: 324px;
+    transition: .30s;
+    animation: arm 4s;
+    z-index: 1;
+}
+
+
+@keyframes arm {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 0 0;    
+    }
+
+    40% {
+        transform: rotate(-45deg); 
+        transform-origin: 0 0; 
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 0 0;   
+    }
+
+}
+
+
+.suitcases {
+    position: absolute;
+    top: 709px;
+    margin-left: 285px;
+    z-index: +3;
+}
+
+.man {
+    position: absolute;
+    top: 450px;
+    margin-left: 400px;
+    z-index: +2;
+}
+
+.message-two {
+    position: absolute;
+    top: 365px;
+    margin-left: 387px;
+    animation: mess 9s;
+    animation-delay: mess 9s;
+    
+}
+
+.bend {
+    position: absolute;
+    top: 521px;
+    margin-left: 424px;
+    z-index: +1;
+}
+
+.arm-one {
+    position: absolute;
+    transform: rotate(150deg);
+    top: 516px;
+    margin-left: 363px;  
+    z-index: 1;
+    animation: arm-one 5s;
+    animation-delay: 5s;
+    transition: 5s;
+    
+ 
+}
+
+@keyframes arm-one {
+    0% {
+        transform: rotate(150deg);
+        transform-origin: 0 500;
+        margin-left: 400px;
+        
+    }
+
+    40% {
+        transform: rotate(0deg); 
+        transform-origin: 0 200;
+        top: 420px;
+        margin-left: 400px;
+    }
+
+    100% {
+        transform: rotate(150deg);
+        transform-origin: 0 500;
+        margin-left: 400px;
+    }
+
+}
+
+
+.car {
+    position: absolute;
+    top: 467px;
+    margin-left: 1595px;
+    animation: car 11s;
+    animation-delay: 5s;
+}
+
+
+
+.message {
+    position: absolute;
+    top: 400px;
+    margin-left: 1000px;
+    animation: mess 10s;
+    animation-delay: mess 3s;
+   
+}
+
+
+@keyframes mess {
+    0% {
+        filter: blur(0px);    
+    }
+    20% {
+        filter: blur(100px);
+          
+    }
+    80% {
+        filter: blur(1px); 
+        font-size: 1px;  
+    }
+    100% {
+        
+    }  
+}
+
+@keyframes car {
+    0% {
+        top: 467px;
+        margin-left: 1595px;
+       
+    }
+    40% {
+        top: 467px;
+        margin-left: 700px;
+        transition-delay: 3s;
+        
+    }
+    100% {
+        top: 467px;
+        margin-left: -1000px;
+        
+   }
+}
+
+.text {
+    position: absolute;
+    top: 344px;
+    left: 361px;
+    animation: mess 20s;
+    animation-delay: mess 20s; 
+    
+}
+
+.text-one {
+    position: absolute;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    top: 356px;
+    left: 384px;
+    animation: mess 15s;
+    animation-delay: mess 15s;
+}
+// . from {
+//     top: 467px;
+//     margin-left: 1595px;
+// }
+// to {
+//     right: 100px;
+
+// }
