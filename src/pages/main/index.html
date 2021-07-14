@@ -12,26 +12,7 @@
     <link rel="shortcut icon" href="images/favicon/Union.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header container"> 
-        <img class="union" src="images/favicon/union.png" alt="">
-            <nav class="menu">
-                <ul class="dots-none header-list">
-                    <li class="header-item">
-                        <a href="#">Blog</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#">Catalog</a>
-                    </li>
-                    <li class="header-item">
-                        <a href="#">About Us</a>
-                    </li>
-                </ul>
-            </nav>
-                <button class="header-search">
-                    <img src="images/search.svg">
-                </button>
-                <a href="#" class="button button-js">Contact  Us</a>           
-    </header>
+   @@include('header/index.html')
     <main>
         <section class="pagination">
             <div class="container-wrapper">
@@ -154,95 +135,7 @@
             </div>
         </article>
     </main>
-    <footer class="nav">
-        <div class="nav-block">
-                <h3 class="footer-header_one">Navigation</h3>
-            <div class="footer-header_list">
-                <ul class="ref">
-                    <li>
-                        <a class="ref-one" href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a class="ref-two" href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a class="ref-tree" href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a class="ref-four" href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a class="ref-five" href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a class="ref-six" href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="information-block">
-            <h3 class="footer-header_two">Customer Information</h3>
-            <ul class="information-list">
-                <li>
-                    <a class="information-list_one" href="contact-us.html">Contact Us</a>
-                </li>
-                <li>
-                    <a class="information-list_two" href="#">Sale Exclusions</a>
-                </li>
-                <li>
-                    <a class="information-list_tree" href="#">Shipping & Returns</a>
-                </li>
-                <li>
-                    <a class="information-list_four" href="#">Terms & Conditions</a>
-                </li>
-                <li>
-                    <a class="information-list_five" href="#">Privacy Policy</a>
-                </li>
-                <li>
-                    <a class="information-list_six" href="#">Search</a>
-                </li>
-            </ul>
-        </div>
-        <div class="connect-block">
-            <h3 class="footer-header_tree">Connect</h3>
-        <div class="connect"></div>
-            <form action="#">
-                <input class="email" type="email" placeholder="Email">
-                <button class="submit" type="submit">Join</button>
-            </form>
-            <ul class="social">
-                <li>
-                    <a class="social-one" href="https://www.facebook.com" target="_blank">
-                    <img src="images/social/facebook.svg" alt="facebook" class="facebook"></a>
-                </li>
-                <li>
-                    <a class="social-two" href="https://www.twitter.com" target="_blank">
-                    <img src="images/social/twitter.svg" alt="twitter" class="twitter"></a>
-                </li>
-                <li>
-                    <a class="social-tree" href="https://www.pinterest.ru" target="_blank">
-                    <img src="images/social/pinterest.svg" alt="Pinterest" class="pinterest"></a>
-                </li>
-                <li>
-                    <a class="social-four" href="https://www.instagram.com" target="_blank">
-                    <img src="images/social/instagram.svg" alt="instagram" class="instagram"></a>
-                </li> 
-            </ul>
-        </div>
-        <div class="footer-lower">
-            <ul>
-                <li class="lower">Company Rating
-                    <img class="star-one" src="images/Star.svg" alt="">
-                    <img class="star-two" src="images/Star.svg" alt="">
-                    <img class="star-tree" src="images/Star.svg" alt="">
-                    <img class="star-four" src="images/Star.svg" alt="">
-                    <img class="star-five" src="images/Star.svg" alt="">
-                </li>
-                <li class="copy">Copyright © 2018 Dlk • Design Life Kids</li>
-                <li class="web">Web Design — Direct Line Development</li>
-            </ul>
-        </div>        
-    </footer>
+ @@include('footer/index.html')
     <div class="popup-overlay"></div>
     <div class="modul-popup">
         <button class="popup-close"><svg width="15" height="15" view box ="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">

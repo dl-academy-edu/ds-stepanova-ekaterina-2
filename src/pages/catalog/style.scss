@@ -1,3 +1,96 @@
-main.catalog-main {
- padding: 30px 0;
+/* CATALOG */  
+
+.service {
+    display: block;
+    position: relative;
+    align-items: center;
 }
+
+.service-title_two {
+    width: 478px;
+    height: 49px;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.vector {
+    display: flex;
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.vector-one {
+    position: relative;
+    margin-left: -38px;
+    color: black;
+    text-decoration: none;
+}
+
+.one {
+    background: url('../images/vector.svg') no-repeat center;
+    width: 8px;
+    height: 12px;
+    margin: 0;
+    margin-top: -4px;
+    margin-left: 20px;
+    border: none;
+}
+
+.catalog {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* THINGS */
+
+.things-button_one {
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.things-button_two {
+    margin-top: 50px;   
+}
+
+.things-button_tree {
+    margin-top: 50px; 
+}
+
+
+.things-two {
+    margin-left: 310px;
+}
+
+.product-description {
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 38px;
+    line-height: 46px;
+    width: 100%;
+    margin-top: 55px;
+}
+    
+.product {
+    margin-left: 310px;
+    margin-right: 410px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    font-family: open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+
