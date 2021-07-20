@@ -1,0 +1,170 @@
+.service {
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.service-title_four {
+    width: 478px;
+    height: 49px;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-Weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.vector {
+    display: flex;
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.vector-one {
+    position: relative;
+    margin-left: -38px;
+    color: black;
+    text-decoration: none;
+}
+
+.one {
+    background: url('../../static/images/vector.svg') no-repeat center;
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 17px;
+    border: none;
+}
+
+.blog {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+}
+
+/* BLOGS */
+
+
+.blogs-one {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+    padding: 0;   
+}
+
+.blogs-one li {
+    margin-right: 20px;
+}
+
+.time {
+    position: relative;
+    font-family: open Sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    top: 20px;
+    color: #a8a8a8;
+}
+
+.blogs-title {
+    position: relative;
+    font-family: montserrat;
+    font-Weight: 700;
+    font-Style: normal;
+    font-Size: 24px;
+    line-height: 31px;
+    width: 380px;
+    top: 7px; 
+    cursor: pointer;
+}
+
+.blogs-title:hover {
+    position: relative;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    width: 380px;
+    top: 7px; 
+    text-decoration: underline;
+}
+
+.blogs-title:active {
+    position: relative;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 31px;
+    width: 380px;
+    top: 7px; 
+    text-decoration: underline;
+}
+
+.line {
+    position: relative;
+    font-family: open sans;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    top: 15px;
+    color: black;
+    width: 380px; 
+}
+
+
+.blogs-two {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 110px;
+    padding: 0; 
+}
+    
+.blogs-two li {
+    margin-right: 20px;
+}
+
+.numbering {
+    display: flex;
+    margin-top: 78px;
+    margin-left: 504px; 
+    margin-bottom: 63px;
+    font-family: montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.numbering-one {
+    color: black;
+    text-decoration: none;
+    margin-left: 67px;
+}
+
+.numbering-one:hover {
+    color: #c29974;
+    text-decoration: none;
+    margin-left: 67px;
+}
+
+.numbering-one:active {
+    color: #8f8282;
+    text-decoration: none;
+    margin-left: 67px;
+}

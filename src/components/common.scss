@@ -34,7 +34,7 @@ img {
 
 
 .number {
-  content: url(../images/01.svg);
+  content: url(../../static/images/01.svg);
   width: 61px;
   height: 74px;
   margin-top: 17px;
@@ -205,14 +205,6 @@ li {
 .service-navigation button {
   border: none;
   cursor: pointer;
-}
-
-.servise-nonavigation_prev {
-  background: url('../images/button1.png')  no-repeat color #fff;
-}
-
-.service-navigation_next {
-  background: url('../images/button2.png') no-repeat color #fff;
 }
 
 .service-navigation p {

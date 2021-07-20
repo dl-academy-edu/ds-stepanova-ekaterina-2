@@ -6,7 +6,7 @@
 }
 
 .container-wrapper {
-  background: url('../images/fon.jpg');
+  background: url('../../static/images/fon.jpg');
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
@@ -65,7 +65,7 @@
 
 
 .image-right {
-  content: url(../images/monster.png) no-repeat;
+  content: url(../../static/images/monster.png) no-repeat;
   width: 635px;
   height: 461px;
   background-position: right;
@@ -90,8 +90,10 @@
 
 
 .subtitle {
-  width: 151px;
-  height: 26px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  white-space: nowrap;
   margin-top: 197px;
   left: -133px;
 }
@@ -107,7 +109,7 @@
 
 
 .about-container .model {
-  background: url('../images/things/thing5.jpg') no-repeat center;
+  background: url('../../static/images/things/thing5.jpg') no-repeat center;
   margin-left: 110px;
   width: 480px;
   height: 559px;
@@ -238,7 +240,7 @@
 
 .brand-container .brand-list {
   justify-content: space-between;
-  margin-top: 0px;
+  margin-top: 63px;
   margin-left: 63px;
   margin-right: 220px;
   margin-bottom: 90px;
@@ -384,7 +386,7 @@
 }
 
 .modul-popup {
-  background: url('../images/Rectangle\ \(4\).png') no-repeat center;
+  background: url('../../static/images/Rectangle\ \(4\).png') no-repeat center;
   display: none;
   width: 680px;
   height: 542px;
@@ -631,7 +633,7 @@
 
 
 .button-checkbox:not(:disabled):active+label::before {
-  content: url('../images/Vector\ 1\ \(Stroke\).svg');
+  content: url('../../static/images/Vector\ 1\ \(Stroke\).svg');
   display: inline-block;
   position: absolute;
   margin-left: -25px;
@@ -643,7 +645,7 @@
 .button-checkbox:checked::after {
   border-color: 2px solid #C29974;
   background-color: #E5EAF8;
-  content: url('../images/Vector\ 1\ \(Stroke\).svg');
+  content: url('../../static/images/Vector\ 1\ \(Stroke\).svg');
 } 
 
 .clicking {

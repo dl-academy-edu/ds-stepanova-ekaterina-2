@@ -1,22 +1,82 @@
 
+.list {
+    position: relative;
+    top: 63px;
+    margin-bottom: 300px;
+    background-attachment:fixed;
+}
+
+.service {
+    display: block;
+    position: relative;
+    align-items: center;
+}
+
+.service-title_five {
+    width: 478px;
+    height: 49px;
+    margin: 0;
+    margin-left: 110px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-Weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+.vector {
+    display: flex;
+    position: relative;
+    width: 42px;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.vector-one {
+    position: relative;
+    margin-left: -38px;
+    color: black;
+    text-decoration: none;
+}
+
+.one {
+    background: url('../../static/images/vector.svg') no-repeat center;
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    margin: 0;
+    margin-top: 7px;
+    margin-left: 17px;
+    border: none;
+}
+
+.animation {
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+}
 
 
 
 .clouds {
     top: 63px;
-    left: 5px;
+    left: 0px;
 }
 
 .cloud-one {
-    top: 20px;
-    left: 20px;
+    top: 0px;
+    left: 39px;
     position: absolute;
     animation: cloud-one 17s infinite;
 }
 
 @keyframes cloud-one {
     from {
-        left: 5px;
+        left: 46px;
     }
     to {
         left: 2000px;
@@ -24,15 +84,15 @@
 }
 
 .cloud-two {
-    top: 54px;
-    left: 325px;
+    top: 31px;
+    left: 315px;
     position: absolute;
     animation: cloud-two 25s infinite;
 }
 
 @keyframes cloud-two {
     from {
-        left: 325px;
+        left: 315px;
     }
     to {
         left: 2000px;
@@ -40,15 +100,15 @@
 }
 
 .cloud-three {
-    top: 18px;
-    left: 582px;
+    top: 0px;
+    left: 573px;
     position: absolute;
     animation: cloud-three 20s infinite;
 }
 
 @keyframes cloud-three {
     from {
-        left: 582px;
+        left: 575px;
     }
     to {
         left: 2000px;
@@ -56,15 +116,15 @@
 }
 
 .cloud-four {
-    top: 101px;
-    left: 695px;
+    top: 79px;
+    left: 686px;
     position: absolute;
     animation: cloud-four 14s infinite;
 }
 
 @keyframes cloud-four {
     from {
-        left: 695px;
+        left: 690px;
     }
     to {
         left: 2000px;
@@ -72,15 +132,15 @@
 }
 
 .cloud-five {
-    top: 53px;
-    left: 988px;
+    top: 31px;
+    left: 980px;
     position: absolute;
     animation: cloud-five 12s infinite;
 }
 
 @keyframes cloud-five {
     from {
-        left: 988px;
+        left: 983px;
     }
     to {
         left: 2000px;
@@ -88,15 +148,15 @@
 }
 
 .cloud-six {
-    top: 50px;
-    left: 1227px;
+    top: 27px;
+    left: 1219px;
     position: absolute;
     animation: cloud-six 13s infinite;
 }
 
 @keyframes cloud-six {
     from {
-        left: 1227px;
+        left: 1225px;
     }
     to {
         left: 2000px;
@@ -108,15 +168,17 @@
 }
 
 .road {
-    margin-top: 10px;  
+    margin-top: 60px;
+    position: absolute;  
 }
 
 .car-three {
     position: absolute;
     top: 497px;
     left: 791px;
-    animation: three 20s infinite;
-    
+    transform: translateX(1500px);
+    animation: three 5s infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes three {
@@ -126,7 +188,7 @@
     }
     to {
         top: 482px;
-        left: 2000px; 
+        left: 1250px; 
     }
 }
 
@@ -135,6 +197,8 @@
     top: 482px;
     left: 111px;
     animation: one 7s infinite;
+    
+   
 }
 
 @keyframes one {
@@ -144,7 +208,7 @@
     }
     to {
         top: 482px;
-        left: 2000px; 
+        left: 1250px; 
     }
 }
 
@@ -188,7 +252,7 @@
     }
     to {
         top: 482px;
-        left: 2000px; 
+        left: 1250px; 
     }
     
 }
@@ -210,13 +274,13 @@
     }
     to {
         top: 482px;
-        left: 2000px; 
+        left: 1250px; 
     }
 }
 
 .Lanterns {
     position: absolute;
-    top: 234px;
+    top: 267px;
     left: 603px;
 }
 
@@ -227,10 +291,10 @@
 }
 
 .road-one {
-    margin-top: 45px;
+    margin-top: 136px;
 }
 
-.one {
+.one-one {
     position: absolute;
     margin-top: 21px;
     margin-left: 173px;
@@ -298,32 +362,31 @@
 
 .lantern {
     position: absolute;
-    top: 233px;
+    top: 257px;
     margin-left: 1168px;
     z-index: 1;
 }
 
 .woman {
     position: absolute;
-    top: 536px;
+    top: 577px;
     margin-left: 293px;
     z-index: 1;
 }
 
 .message-one {
     position: absolute;
-    top: 430px;
+    top: 475px;
     margin-left: 200px;
     animation: mess 3s;
     animation-delay: mess 3s;
+    z-index: 1;
 }
-
-
 
 
 .arm {
     position: absolute;
-    top: 649px;
+    top: 690px;
     margin-left: 324px;
     transition: .30s;
     animation: arm 4s;
@@ -352,14 +415,14 @@
 
 .suitcases {
     position: absolute;
-    top: 709px;
+    top: 747px;
     margin-left: 285px;
     z-index: +3;
 }
 
 .man {
     position: absolute;
-    top: 450px;
+    top: 488px;
     margin-left: 400px;
     z-index: +2;
 }
@@ -370,7 +433,6 @@
     margin-left: 387px;
     animation: mess 9s;
     animation-delay: mess 9s;
-    
 }
 
 .bend {
@@ -383,14 +445,12 @@
 .arm-one {
     position: absolute;
     transform: rotate(150deg);
-    top: 516px;
+    top: 560px;
     margin-left: 363px;  
     z-index: 1;
     animation: arm-one 5s;
     animation-delay: 5s;
     transition: 5s;
-    
- 
 }
 
 @keyframes arm-one {
@@ -419,10 +479,11 @@
 
 .car {
     position: absolute;
-    top: 467px;
-    margin-left: 1595px;
+    top: 700px;
+    margin-left: 2000px;
     animation: car 11s;
     animation-delay: 5s;
+    
 }
 
 
@@ -433,7 +494,6 @@
     margin-left: 1000px;
     animation: mess 10s;
     animation-delay: mess 3s;
-   
 }
 
 
@@ -502,3 +562,6 @@
 //     right: 100px;
 
 // }
+
+
+
