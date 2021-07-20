@@ -1,0 +1,34 @@
+.man {
+    position: absolute;
+    top: 488px;
+    margin-left: 400px;
+    z-index: +2;
+}
+
+.arm-one {
+    position: absolute;
+    transform: rotate(150deg);
+    top: 560px;
+    margin-left: 369px;  
+    z-index: 1;
+    animation: arm-one 2s;
+    animation-delay: 2s;
+    transition: 2s;
+}
+
+@keyframes arm-one {
+    0% {
+        transform: rotateZ(150deg); 
+    }
+
+    40% {
+        transform: rotateZ(0deg) translateZ();
+        top: 450px;
+        
+    }
+
+    100% {
+        transform: rotateZ(150deg); 
+    }
+
+}

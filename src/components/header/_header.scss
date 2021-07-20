@@ -1,0 +1,158 @@
+
+/* HEADER */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 60px 0;
+}
+
+
+.menu {
+  margin-top: 0;
+  margin-left: 60px;
+  margin-bottom: 0;
+  margin-right: auto;
+}
+
+.union {
+  width: 100px;
+  height: 52px;
+}
+
+.union:hover {
+  width: 100px;
+  height: 52px;
+  opacity: 50%;
+}
+
+.union:active {
+  width: 100px;
+  height: 52px;
+  opacity: 20%;
+}
+
+
+.header-list {
+  display: flex;
+  align-items: center; 
+}
+
+
+.header-item > a {
+  margin-right: 20px;
+  color:black;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: Center;
+  color: black; 
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-item > a:hover{
+  margin-right: 20px;
+  color:black;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: center;
+  color: black; 
+  opacity: 50%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-item > a:active {
+  margin-right: 20px;
+  color:black;
+  opacity: 20%;
+  font-size: 14px;
+  line-height: 19px;
+  vertical-align: center;
+  color: black; 
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-search {
+  content: url ('../../static/images/search.svg');
+  border: none;
+  background: #fff;
+  color: #1E0606;
+  margin-right: 23px;
+  cursor: pointer;
+}
+
+.header-search:hover {
+  content: url ('../../static/images/search.svg');
+  border: none;
+  background: #fff;
+  color: #1E0606;
+  opacity: 50%;
+  margin-right: 23px;
+}
+
+.header-search:active {
+  content: url ('../../static/images/search.svg');
+  border: none;
+  background: #fff;
+  color: #1E0606;
+  opacity: 20%;
+  margin-right: 23px;
+}
+
+
+.header .button {
+  font-family: open Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #1E0606;
+  text-decoration: none;
+  background: #fff;
+  width: 10%;
+  height: 23px;
+  text-align: right; 
+}
+
+.header .button:hover {
+  color: #1E0606;
+  opacity: 50%;
+} 
+
+.header .button:active {
+  color: #1E0606;
+  opacity: 20%;
+} 
+
+.button-secondary {
+  background: black;
+  border: none;
+  margin-top: 243px;
+  margin-left: -133px;
+}
+
+.button-secondary {
+  font-family: open Sans;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  position: absolute;
+  left: 300px;
+  width: 161px;
+  height: 40px;
+  text-align: center;
+  background: black;
+  color:blanchedalmond;
+  border: none;
+}
+
+.button-secondary:hover {
+  background: #C29974;
+}
+.button-secondary:active {
+  background: #CFAF91;
+}

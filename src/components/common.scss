@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #1E0606;
+}
+
+img {
+  max-width: 100%;
+  display: block
+}
+
+
+
+/* CONTAINER */
+
+.dots-none li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1180px;
+  margin-top: 145px;
+  margin-left: 110px;
+  margin-bottom: 50px;
+  margin-right: 110px;  
+}
+
+
+.number {
+  content: url(../../static/images/01.svg);
+  width: 61px;
+  height: 74px;
+  margin-top: 17px;
+  margin-left: 28px;
+}
+
+
+
+.banner-hav__item {
+  list-style-type: none;
+  left: -10px;
+  top: -10px;
+  margin-top: -3px; 
+}
+
+.button-primacy-one {
+  border: none;
+  background-color: #715f5b;
+  width: 31px;
+  height: 3px;
+  cursor: pointer;
+}
+
+.button-primacy-one:hover {
+  background-color: #715f5b;
+}
+
+
+.button-primacy {
+  border: none;
+  background-color: #d6cac2;
+  width: 31px;
+  height: 3px;
+  cursor: pointer;
+}
+
+.button-primacy:hover {
+  background-color: #715f5b;
+}
+
+/* SERVICE */
+
+.service-title_one {
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 90px;
+  margin-left: 0px;
+  font-size: 38px;
+  line-height: 46px;
+  width: 454px;
+  height: 47px;
+  text-transform: uppercase; 
+}
+
+.servise-style {
+  display: flex;
+  padding-left: 0;  
+}
+
+li {
+  list-style: none;   
+}
+
+.servise-style li {
+  margin-right: 25px; 
+}
+
+.servise-style .button-one {
+  position: absolute;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  Line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 103px;
+  cursor: pointer;
+}
+
+.servise-style .button-one:hover {
+  position: absolute;
+  text-decoration:inherit;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 103px;
+}
+
+.servise-style .button-one:active {
+  position: absolute;
+  text-decoration:inherit;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 103px;
+}
+
+
+.servise-style .button-two {
+  position: absolute;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 119px;
+  cursor: pointer;
+
+}
+
+.servise-style .button-two:hover {
+  position: absolute;
+  text-decoration:inherit;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 119px;
+}
+
+.servise-style .button-two:active {
+  position: absolute;
+  text-decoration:inherit;
+  color: #FFFFFF; 
+  font-Size: 26px;
+  line-height: 32px;
+  text-align: center;
+  font-family: montserrat;
+  font-weight: 700;
+  font-style: normal;
+  width: 280px;
+  height: 270px;   
+  padding-top: 119px;
+}
+
+/* .service-navigation */
+
+.service-navigation {
+  display: flex;
+  position: relative;
+}
+
+.service-navigation button {
+  border: none;
+  cursor: pointer;
+}
+
+.service-navigation p {
+  width: 580px;
+  height: 44px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: open Sans;
+  font-weight :400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.invisible {
+  font-size: 0;
+  height: 0;
+}
+
+
+
+
+// Подключение компонентов
+@import "./header/header";
+@import "./footer/footer";
